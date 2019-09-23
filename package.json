@@ -1,0 +1,44 @@
+{
+  "name": "use-calendar-matrix",
+  "version": "1.0.0",
+  "description": "React hooks to generate a calendar matrix (array of weeks and days) given the year and month. This value then can be used for any purpose related to calendar like datepicker and so on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calendar",
+    "matrix",
+    "react",
+    "react-hooks",
+    "javascript",
+    "datepicker"
+  ],
+  "author": {
+    "name": "Ongki Herlambang",
+    "email": "ongki@herlambang.design",
+    "website": "https://herlambang.design"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.2.1",
+    "react": "^16.9.0"
+  },
+  "lint-staged": {
+    "./index.js": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^5.0.2",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.3.0",
+    "prettier": "^1.18.2"
+  }
+}
