@@ -55,7 +55,7 @@ const MyCalendar = () => {
 
 ```
 
-**⚠️ Please Note:** Javascript `Date` starts from 0, so 0 for January and 11 is December.
+**⚠️ Note:** Javascript `Date` starts from `0`. So `0` for `January` and `11` is `December`.
 
 
 ## Optional Parameters
