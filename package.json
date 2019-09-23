@@ -19,13 +19,13 @@
     "email": "ongki@herlambang.design",
     "website": "https://herlambang.design"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "date-fns": "^2.2.1",
     "react": "^16.9.0"
   },
   "lint-staged": {
-    "./index.js": [
+    "*.{js,jsx,ts,tsx}": [
       "prettier --single-quote --write",
       "git add"
     ]

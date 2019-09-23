@@ -49,5 +49,5 @@ export const useCalendarMatrix = (
     setMatrix(generateMatrix(year, month, formatDay, weekStartsOn, daysInWeek))
   }, [year, month])
 
-  return matrix
+  return [matrix]
 }
