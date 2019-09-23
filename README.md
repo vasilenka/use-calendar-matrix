@@ -55,6 +55,8 @@ const MyCalendar = () => {
 
 ```
 
+Add some event to change the year and month, and styling to the the components and you'll get yourself something like this: [Example](http://components-lab.netlify.com/#calendar-matrix)
+
 **⚠️ Note:** Javascript `Date` starts from `0`. So `0` for `January` and `11` is `December`.
 
 
