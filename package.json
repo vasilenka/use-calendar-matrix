@@ -40,5 +40,15 @@
     "husky": "^3.0.5",
     "lint-staged": "^9.3.0",
     "prettier": "^1.18.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vasilenka/use-calendar-matrix"
+  },
+  "bugs": {
+    "url": "https://github.com/vasilenka/use-calendar-matrix/issues"
   }
 }
